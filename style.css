@@ -8,6 +8,12 @@ body {
   padding: 40px;
 }
 
+/* properties: display, justify-content and align-items to center. */
+.center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Headings */
 h1,
 h2,
@@ -75,4 +81,19 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+}
+.left-align {
+  text-align: left;
+}
+.portfolio-section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  font-size: 14px;
 }
